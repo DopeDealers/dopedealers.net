@@ -1,0 +1,9 @@
+{
+    "name": "dopedealersnet",
+    "author": "Phil#0004",
+    "main": "/src/index.js",
+    "version": "1.0.0-beta-1",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
