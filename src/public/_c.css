@@ -1,0 +1,38 @@
+html {
+    height: 100% !important;
+}
+
+body {
+    background: linear-gradient(154deg, #832355, #330867);
+    background-size: 400% 400%;
+    /* background-size: cover !important;  */
+    /* position:relative; 
+    overflow: auto !important;  */
+    min-height: 100% !important;
+
+    -webkit-animation: backgroundIndex 30s ease infinite;
+    -moz-animation: backgroundIndex 30s ease infinite;
+    -o-animation: backgroundIndex 30s ease infinite;
+    animation: backgroundIndex 30s ease infinite;
+}
+
+@-webkit-keyframes backgroundIndex {
+    0%{background-position:33% 0%}
+    50%{background-position:68% 100%}
+    100%{background-position:33% 0%}
+}
+@-moz-keyframes backgroundIndex {
+    0%{background-position:33% 0%}
+    50%{background-position:68% 100%}
+    100%{background-position:33% 0%}
+}
+@-o-keyframes backgroundIndex {
+    0%{background-position:33% 0%}
+    50%{background-position:68% 100%}
+    100%{background-position:33% 0%}
+}
+@keyframes backgroundIndex {
+    0%{background-position:33% 0%}
+    50%{background-position:68% 100%}
+    100%{background-position:33% 0%}
+}
